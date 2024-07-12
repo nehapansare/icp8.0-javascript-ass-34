@@ -19,3 +19,9 @@ for(let i=0;i<num.length;i++)
     }
 }
 console.log(`sum of odd number is:${sum}`)
+
+const student=["neha","nirmal","nilam","rushda","siddhi","sharon","sayali"];
+for(const stud of student)
+{
+    console.log(`Hello guys ${stud}`)
+}
