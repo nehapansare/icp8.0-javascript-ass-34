@@ -1,5 +1,10 @@
-const student=["neha","nirmal","nilam","rushda","siddhi","sharon","sayali"];
-for(const stud of student)
+const value=[22,120,30,400,200]
+let largest =value[0]
+for(let i=0;i<=value.length;i++)
 {
-    console.log(`Hello guys ${stud}`)
+    if(value[i]>largest)
+    {
+    largest = value[i]
+    }
 }
+console.log(largest)
